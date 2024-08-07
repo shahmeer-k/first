@@ -1,9 +1,24 @@
 body{
     /* background-color: black; */
-    color: white;
+    color: black;
     background-image: url(./00-05-tenjin-business-center-photography-by-tomoyuki-kusunose-oma-ny-1641249338.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
 }
 h1{
-    font-size: 40px;
+    text-align: center;
+    color: rgb(133, 17, 17);
+    font-size: 60px;
     font-weight: 200;
+    font-family: sans-serif;
+}
+h1:hover{
+    color: rgb(250, 20, 20);
+    cursor: pointer;
+    text-shadow: 0 0 3px #FF0000
 }
